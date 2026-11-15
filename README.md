@@ -22,7 +22,7 @@ I specialize in practical **Computer Vision**, **Custom OCR**, and **Applied NLP
 
 ### Featured Project
 
-#### 🀄 [Real-Time Japanese Visual Novel Translator](https://github.com/Xreactives/realtime-japanese-visual-novel-translator)
+#### 🈁 [Real-Time Japanese Visual Novel Translator](https://github.com/Xreactives/realtime-japanese-visual-novel-translator)
 > **Offline, zero-configuration screen translation overlay (~300–450 ms end-to-end latency)** combining a `1280px` full-screen YOLO UI/text detector, a custom CRNN + CTC Japanese OCR recognizer, SudachiPy morphological normalization, and Sugoi V4 neural machine translation.
 
 | Layer | Engineering Highlights |
