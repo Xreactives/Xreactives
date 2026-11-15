@@ -28,7 +28,7 @@ I specialize in practical **Computer Vision**, **Custom OCR**, and **Applied NLP
 | Layer | Engineering Highlights |
 | :--- | :--- |
 | **1. Data & Active Learning** | Engineered a **6-stage data curation pipeline**: automated bounding-box cropping, perceptual-hash deduplication, silver prelabeling, a custom Tkinter audit GUI, synthetic Japanese font augmentation (TRDG), and CTC loss-based noisy-label mining. |
-| **2. Vision & OCR Models** | Trained a full-screen `1280px` YOLO detector (filtering logos, sprites, and toolbars) paired with a custom CRNN + CTC Japanese text recognizer trained on curated + synthetic game typography. |
+| **2. Vision & OCR Models** | Unified my custom **YOLO UI/text detector** (`99% mAP@50`, filtering logos, sprites, and toolbars) with my **IJECSA-published CRNN (`CNN + LSTM + MultiheadAttention`)** Japanese OCR recognizer adapted onto curated + synthetic game typography. |
 | **3. Quantized Runtime** | Exported vision models to **ONNX Runtime** with dynamic cuBLAS probing and automatic CPU INT8 fallback, alongside **Sugoi V4 (CTranslate2)** FP16/INT8 offline translation. |
 | **4. OS-Level Overlay** | Eliminated screen-capture feedback loops and coordinate drift on Windows using `WDA_EXCLUDEFROMCAPTURE`, live bounding-box masking, and Per-Monitor DPI awareness. |
 
@@ -38,8 +38,8 @@ I specialize in practical **Computer Vision**, **Custom OCR**, and **Applied NLP
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| [**Visual Novel Text Detector**](https://github.com/Xreactives/visual-novel-text-detector) | Visual novel UI text region detector and OCR engine achieving **99% mAP@50 at 2 ms** inference speed. | `Ultralytics YOLO26n` `EasyOCR` `OpenCV` |
-| [**Japanese CRNN Text Recognition**](https://github.com/Xreactives/japanese-crnn-text-recognition) | Custom Japanese text recognizer (`CNN + LSTM + MultiheadAttention`) trained on the **ETL dataset** with an on-screen translator GUI. | `PyTorch` `CRNN` `Attention` `Tkinter` |
+| [**Visual Novel Text Detector**](https://github.com/Xreactives/visual-novel-text-detector) | Visual novel UI text region detector (**99% mAP@50 at 2 ms**) and OCR engine whose trained `.pt` weights power the detection stage of the Real-Time VN Translator. | `Ultralytics YOLO26n` `EasyOCR` `OpenCV` |
+| [**Japanese CRNN Text Recognition**](https://github.com/Xreactives/japanese-crnn-text-recognition) | Undergraduate thesis & IJECSA-published Japanese OCR architecture (`CNN + LSTM + MultiheadAttention`) trained on the ETL dataset—later adapted as the OCR engine in the Real-Time VN Translator. | `PyTorch` `CRNN` `Attention` `Tkinter` |
 | [**AI Image Detector**](https://github.com/Xreactives/ai-image-detector) | Full-stack synthetic image classification service with a REST inference API and interactive web interface. | `PyTorch` `FastAPI` `Streamlit` |
 | [**QuestMatch AI**](https://github.com/Xreactives/questmatch-ai) | Semantic video game recommendation engine retrieving titles via dense text embeddings and cosine similarity. | `Sentence Transformers` `NLP` `Streamlit` |
 
