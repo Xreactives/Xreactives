@@ -29,11 +29,11 @@ I specialize in practical **Computer Vision**, **Custom OCR**, and **Applied NLP
 #### 🈁 [Real-Time Japanese Visual Novel Translator](https://github.com/Xreactives/realtime-japanese-visual-novel-translator)
 > **Offline, zero-configuration screen translation overlay (~300–450 ms end-to-end latency)** unifying a custom `1280px` YOLO UI/text detector (`99% mAP@50`), an adapted version of my IJECSA-published CRNN + CTC Japanese OCR architecture, SudachiPy morphological normalization, and Sugoi V4 neural machine translation.
 
-<!-- Uncomment once you upload demo.gif to this profile repo or link it from your project repo:
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Xreactives/realtime-japanese-visual-novel-translator/main/assets/demo.gif" alt="Real-Time Visual Novel Translator Demo" width="760" />
 </div>
--->
+
 
 | Layer | Engineering Highlights |
 | :--- | :--- |
